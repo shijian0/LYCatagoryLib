@@ -10,4 +10,5 @@
 
 @interface NSString (GetLimitRangeString)
 - (NSString*)getLimitRangeString:(NSRange)range;
+- (NSInteger)getStringLenght;
 @end

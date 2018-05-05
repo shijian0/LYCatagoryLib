@@ -15,4 +15,7 @@
 //        <#statements#>
 //    }
 }
+- (NSInteger)getStringLenght{
+    return self.length;
+}
 @end
