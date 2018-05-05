@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LYCatagoryLib_Example' do
+  pod 'LYCatagoryLib', :path => '../'
+
+  target 'LYCatagoryLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
